@@ -28,7 +28,7 @@ export function TeamSection() {
       image: "/assets/photos/ezra.jpg",
     },
     {
-      name: "Darik ",
+      name: "Darik Sintayehu",
       position: "Chief Financial Officer",
       bio: "A seasoned financial expert with experience in technology investment and financial strategy for growing companies.",
       image: "/assets/photos/darick.jpg",

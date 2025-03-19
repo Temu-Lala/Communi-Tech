@@ -17,9 +17,9 @@ export function ExecutiveTeam() {
       bio: "With over 20 years of experience in technology leadership, Dr. Tefera has led CommuniTech from a startup to a leading tech solutions provider. He holds a Ph.D. in Computer Science from MIT and has previously worked at global tech companies.",
       image: "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_1280.png",
       socialLinks: {
-        linkedin: "#",
-        twitter: "#",
-        email: "samuel@communitech.com",
+        linkedin: "/",
+        twitter: "/",
+        email: "/",
       },
     },
     {
@@ -28,9 +28,9 @@ export function ExecutiveTeam() {
       bio: "A visionary technologist with expertise in AI and smart systems, Abebe leads our R&D and engineering teams to create innovative solutions. He has a Master's in Electrical Engineering from Stanford and has led multiple successful tech startups.",
       image: "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_1280.png",
       socialLinks: {
-        linkedin: "#",
-        twitter: "#",
-        email: "abebe@communitech.com",
+        linkedin: "/",
+        twitter: "/",
+        email: "/",
       },
     },
     {
@@ -39,9 +39,9 @@ export function ExecutiveTeam() {
       bio: "An operations expert with a background in supply chain management and business optimization. Hiwot has an MBA from Harvard Business School and has transformed our operational efficiency since joining in 2019.",
       image: "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_1280.png",
       socialLinks: {
-        linkedin: "#",
-        twitter: "#",
-        email: "hiwot@communitech.com",
+        linkedin: "",
+        twitter: "",
+        email: "/",
       },
     },
     {
@@ -50,9 +50,9 @@ export function ExecutiveTeam() {
       bio: "A seasoned financial expert with experience in technology investment and financial strategy for growing companies. Girma has a background in investment banking and holds an MBA from London Business School.",
       image: "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_1280.png",
       socialLinks: {
-        linkedin: "#",
-        twitter: "#",
-        email: "girma@communitech.com",
+        linkedin: "/",
+        twitter: "/",
+        email: "/",
       },
     },
   ]
@@ -105,7 +105,7 @@ export function ExecutiveTeam() {
                         <Twitter className="h-5 w-5 text-white" />
                       </a>
                       <a
-                        href={`mailto:${executive.socialLinks.email}`}
+                        href={executive.socialLinks.email}
                         className="bg-white/20 backdrop-blur-sm p-2 rounded-full hover:bg-red-500 transition-colors"
                       >
                         <Mail className="h-5 w-5 text-white" />

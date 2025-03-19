@@ -81,7 +81,7 @@ export function CompanyTimeline() {
         >
           <h2 className="text-3xl font-bold mb-4">Our Journey</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From our founding in 2018 to the present day, explore the key milestones in CommuniTech's growth
+            From our founding in 2022 to the present day, explore the key milestones in CommuniTech's growth
           </p>
         </motion.div>
 

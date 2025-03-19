@@ -58,7 +58,7 @@ export function AboutHero() {
               Our Story
             </h2>
             <p className="text-muted-foreground">
-              Founded in 2018, CommuniTech began with a vision to bridge the technology gapCommuniTech is a dynamic and
+              Founded in 2022, CommuniTech began with a vision to bridge the technology gapCommuniTech is a dynamic and
  rapidly growing Smart
  Solutions company inspired by
  innovation and empowered by
