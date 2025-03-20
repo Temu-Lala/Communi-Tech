@@ -23,7 +23,7 @@ const translations: Translations = {
 
   // Hero Section
   heroTitle: {
-    en: "COMMUNI TECH TECHNOLOGY PLC Inspired By Innovation, Empowerd By  Technology Solutions",
+    en: "COMMUNI TECH TECHNOLOGY PLC ",
     am: "ፈጠራዊ የቴክኖሎጂ መፍትሄዎች",
   },
   heroSubtitle: {
