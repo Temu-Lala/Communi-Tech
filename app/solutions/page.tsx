@@ -29,8 +29,23 @@ export default function SolutionsPage() {
         "Lead generation and FAQ automation",
       ],
       category: "Fraud Prevention",
-      icon: "📄",
+      icon: "🤖",
       image: "https://img.freepik.com/free-vector/vintage-robot-toy-white-background_1308-77501.jpg?t=st=1742388507~exp=1742392107~hmac=15219e4a8d3ccae58cd4151e71c07bb6a3c3dd552181e0017c66e2a7be7c8304&w=740",
+    },{
+      id: "e-vehicle",
+      title: "E-Vehicle",
+      
+      description: "Automate customer interactions with AI-driven chatbots.",
+      features: [
+        " Computer Vision for License Plate Recognition (LPR)",
+        "Fraud Prevention & Anti-Theft System",
+        "Real-Time GPS Location Tracking",
+        " NFC-Enabled Vehicle Authentication ",
+        "Facial Recognition for Driver Authentication",
+      ],
+      category: "Fraud Prevention",
+      icon: "🚘",
+      image: "https://img.freepik.com/free-vector/internet-things-iot-smart-connection-control-device-network-industry-resident-anywhere-anytime-anybody-any-business-with-internet-it-technology-futuristic-world_1150-61164.jpg?t=st=1742464376~exp=1742467976~hmac=1592d45181d19034ecf9993579ff7799b0d0430c1b2e5fe11a0887a1fdeba5fd&w=1380",
     },{
       id: "smart-document",
       title: "SMART Document",
