@@ -58,20 +58,20 @@ export function AboutHero() {
               Our Story
             </h2>
             <p className="text-muted-foreground">
-              Founded in 2022, CommuniTech began with a vision to bridge the technology gapCommuniTech is a dynamic and
+              Founded in 2022, CommuniTech began with a vision to bridge the technology gap CommuniTech is a dynamic and
  rapidly growing Smart
- Solutions company inspired by
+ Solutions company, inspired by
  innovation and empowered by
  technology. Headquartered in
- the futuristic city of Addis Abab,
+ the futuristic city of Addis Ababa,
  CommuniTech is staffed by
  experienced professionals with
- over years combined
+ over years of combined
  experience.
             </p>
             <p className="text-muted-foreground">
             What CommuniTech does is simple.
- Wehelp organizations prevent
+ We help organizations prevent
  fraud and reduce forgery using
  a range of SMART solutions
  tailored to suit your exact

@@ -39,13 +39,13 @@ export function ExecutiveTeam() {
       bio: "An operations expert with a background in supply chain management and business optimization. Hiwot has an MBA from Harvard Business School and has transformed our operational efficiency since joining in 2019.",
       image: "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_1280.png",
       socialLinks: {
-        linkedin: "",
-        twitter: "",
+        linkedin: "/",
+        twitter: "/",
         email: "/",
       },
     },
     {
-      name: "Professor Abdelrahim Mohamed",
+      name: "Professor Abdelrahim Mohamed Elamin",
       position: "senior company adivisor",
       bio: "A seasoned financial expert with experience in technology investment and financial strategy for growing companies. Girma has a background in investment banking and holds an MBA from London Business School.",
       image: "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_1280.png",

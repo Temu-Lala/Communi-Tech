@@ -31,7 +31,7 @@ export function AboutPreview() {
               >
                 <h3 className="text-2xl font-semibold text-blue-600 dark:text-blue-400 mb-3">{t("vision")}</h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  To be the leading provider of innovative technology solutions that transform businesses and enhance
+                  To be the leading provider of innovative technology solutions that transfors businesses and enhabces
                   lives across Africa and beyond.
                 </p>
               </motion.div>

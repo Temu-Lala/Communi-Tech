@@ -11,21 +11,21 @@ export function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "CommuniTech's fraud prevention solution has saved our company millions. Their technology is cutting-edge and their support is exceptional.",
-      author: "Sarah Johnson",
+        "fraud prevention solution has prevented the loss of substantial valuable resources.",
+      author: "Kidst Abebe",
       position: "CTO, Financial Services Inc.",
       image: "/placeholder.svg?height=60&width=60",
     },
     {
       quote:
-        "The smart parking system implemented by CommuniTech has transformed our facility management. Efficiency is up by 40% and customer satisfaction has never been higher.",
-      author: "Michael Chen",
-      position: "Operations Director, City Mall",
+        "The smart parking system implemented by the company transformed our facility management. Efficiency is up by 40%, and customer satisfaction has never been higher",
+      author: "Solomon Tadesse",
+      position: "Operations Director",
       image: "/placeholder.svg?height=60&width=60",
     },
     {
       quote:
-        "Their network solutions are reliable and scalable. We've been able to expand our operations without any connectivity issues thanks to CommuniTech.",
+        "Their network solutions are reliable and scalable. We've been able to expand our operations without any connectivity issues thanks to the company.",
       author: "Ayana Bekele",
       position: "IT Manager, Global Enterprises",
       image: "/placeholder.svg?height=60&width=60",

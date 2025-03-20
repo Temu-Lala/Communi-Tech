@@ -69,7 +69,7 @@ export function TeamSection() {
                     <img
                       src={executive.image || "/placeholder.svg"}
                       alt={executive.name}
-                      className="w-full h-full object-cover transition-transform hover:scale-105"
+                      className="w-full h- object-cover transition-transform hover:scale-105"
                     />
                   </div>
                   <CardContent className="p-6">

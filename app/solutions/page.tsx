@@ -15,7 +15,6 @@ export default function SolutionsPage() {
   const solutionCategories = ["All", "Fraud Prevention", "Specialized Solutions", "System Development"]
 
   const solutions = [
-    // Fraud Prevention Solutions
     
     {
       id: "herbie-bot",

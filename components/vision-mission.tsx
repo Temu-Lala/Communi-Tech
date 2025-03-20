@@ -113,22 +113,14 @@ export function VisionMission() {
  SMART Solutions.
                   </li>
                   <li>
-                    <span className=" font-bold text-green-600 text-xl">Excellence:</span>  Weprovide our clients with the highest
+                    <span className=" font-bold text-green-600 text-xl">Excellence:</span>  We provide our clients with the highest
  standards of service, while ensuring
- their needs are met in a timely fashion
- and our technology meets their
+ their needs are met in a timely fashion.
+  Our technology meets their
  demands and today’s challenging
  business requirements.
                   </li>
-                  <li>
-                    <span className=" font-bold text-green-600 text-xl"> Service Excellence
-                    :</span> Weprovide our clients with the highest
- standards of service, while ensuring
- their needs are met in a timely fashion
- and our technology meets their
- demands and today’s challenging
- business requirements.
-                  </li>
+               
                   <li>
                     <span className=" font-bold text-green-600 text-xl"> Empowering Stakeholders
                     :</span> Empowering our clients, partners and
