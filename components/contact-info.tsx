@@ -98,7 +98,7 @@ export function ContactInfo() {
           </motion.a>
 
           <motion.a
-            href="#instagram"
+            href="https://www.instagram.com/communitechtechnology?igsh=YzljYTk1ODg3Zg=="
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="bg-pink-500 w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-pink-600 transition-all"
