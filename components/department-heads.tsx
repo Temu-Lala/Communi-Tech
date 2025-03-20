@@ -6,10 +6,21 @@ import { useTranslation } from "./language-provider"
 import { Linkedin, Mail } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 
+// Define the type for a department head
+interface DepartmentHead {
+  name: string
+  position: string
+  department: string
+  expertise: string[]
+  image: string
+  joined: string
+}
+
 export function DepartmentHeads() {
   const { t } = useTranslation()
 
-  const departmentHeads = [
+  // Define the department heads with explicit types
+  const departmentHeads: DepartmentHead[] = [
     {
       name: "Tigist Mengesha",
       position: "Head of R&D",
@@ -77,7 +88,7 @@ export function DepartmentHeads() {
   ]
 
   // Group department heads by department
-  const departmentGroups = departmentHeads.reduce((groups, head) => {
+  const departmentGroups = departmentHeads.reduce((groups: Record<string, DepartmentHead[]>, head: DepartmentHead) => {
     if (!groups[head.department]) {
       groups[head.department] = []
     }
@@ -114,7 +125,7 @@ export function DepartmentHeads() {
             </motion.h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {heads.map((head, index) => (
+              {heads.map((head: DepartmentHead, index: number) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
@@ -142,7 +153,7 @@ export function DepartmentHeads() {
                       <p className="text-sm text-primary mb-3">{head.position}</p>
 
                       <div className="flex flex-wrap gap-1 mb-3">
-                        {head.expertise.map((skill, i) => (
+                        {head.expertise.map((skill: string, i: number) => (
                           <Badge key={i} variant="outline" className="text-xs">
                             {skill}
                           </Badge>
@@ -168,4 +179,3 @@ export function DepartmentHeads() {
     </section>
   )
 }
-
