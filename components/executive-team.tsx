@@ -25,7 +25,7 @@ export function ExecutiveTeam() {
     {
       name: "Dr. Melak Mekonen",
       position: "Dept.of Electrical & Computer  Engineering at NASA ",
-      bio: "A visionary technologist with expertise in AI and smart systems, Abebe leads our R&D and engineering teams to create innovative solutions. He has a Master's in Electrical Engineering from Stanford and has led multiple successful tech startups.",
+      bio: "",
       image: "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_1280.png",
       socialLinks: {
         linkedin: "/",
@@ -36,7 +36,7 @@ export function ExecutiveTeam() {
     {
       name: "Professor Samuel kinde ",
       position: "Dept.of Mechanical Engineering at Santiago University ",
-      bio: "holds a Ph.D. degree in engineering mechanics from Verginia Polytechnic Institute and State University. His research interests are in the areas of MEMS,polymer photovoltaics technology, and bionanoelectronics, and NeuroMEMS.  ",
+      bio: " ",
       image: "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_1280.png",
       socialLinks: {
         linkedin: "/",
@@ -47,7 +47,7 @@ export function ExecutiveTeam() {
     {
       name: "Professor Abdelrahim Mohamed Elamin",
       position: "senior company adivisor",
-      bio: "A seasoned financial expert with experience in technology investment and financial strategy for growing companies. Girma has a background in investment banking and holds an MBA from London Business School.",
+      bio: "",
       image: "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_1280.png",
       socialLinks: {
         linkedin: "/",
