@@ -48,7 +48,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center opacity-50"
-        style={{ backgroundImage: `url('https://img.freepik.com/free-vector/gradient-futuristic-cyber-background_23-2149116407.jpg?t=st=1742555621~exp=1742559221~hmac=4b6667a29130be89a49d74f0e37da1914f6e22f076be65310b507f0dd36f9b5c&w=1380')` }}
+        style={{ backgroundImage: `url('/assets/photos/bg.jpg')` }}
       />
 
       {/* Top Section: Text and Buttons */}
