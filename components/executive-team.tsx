@@ -13,8 +13,8 @@ export function ExecutiveTeam() {
   const executives = [
     {
       name: "Dr. Dawit Mengistu",
-      position: "Dept.of Electrical & Computer Engineering ",
-      bio: "With over 20 years of experience in technology leadership, Dr. Tefera has led CommuniTech from a startup to a leading tech solutions provider. He holds a Ph.D. in Computer Science from MIT and has previously worked at global tech companies.",
+      position: "Computational Scientist OmicsCraft. Blekinge Institute of Technology Rockville, Maryland, United States", 
+      bio: " ",
       image: "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_1280.png",
       socialLinks: {
         linkedin: "/",
@@ -36,7 +36,7 @@ export function ExecutiveTeam() {
     {
       name: "Professor Samuel kinde ",
       position: "Dept.of Mechanical Engineering at Santiago University ",
-      bio: "An operations expert with a background in supply chain management and business optimization. Hiwot has an MBA from Harvard Business School and has transformed our operational efficiency since joining in 2019.",
+      bio: "holds a Ph.D. degree in engineering mechanics from Verginia Polytechnic Institute and State University. His research interests are in the areas of MEMS,polymer photovoltaics technology, and bionanoelectronics, and NeuroMEMS.  ",
       image: "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_1280.png",
       socialLinks: {
         linkedin: "/",

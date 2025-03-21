@@ -45,58 +45,17 @@ export function HeroSection() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-yellow-50 dark:from-gray-900 dark:to-gray-800 py-12 relative overflow-hidden">
-      {/* Gradient Grid Background */}
-      <div className="absolute inset-0 z-0 bg-[url('/grid-pattern.svg')] opacity-20 dark:opacity-30" />
-
-      {/* Moving Horizontal Stripes with Text */}
-      <motion.div
-        className="absolute inset-0 z-0"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-      >
-        {Array.from({ length: 20 }).map((_, index) => (
-          <motion.div
-            key={index}
-            className="absolute w-full h-1 bg-gradient-to-r from-green-500 to-violet-800 dark:from-blue-900 dark:to-yellow-900 opacity-20"
-            style={{
-              top: `${index * 10}%`,
-              left: "0%",
-            }}
-            animate={{
-              x: ["-100%", "100%", "-100%"],
-            }}
-            transition={{
-              duration: 100 + Math.random() * 10,
-              repeat: Infinity,
-              ease: "linear",
-              delay: Math.random() * 2,
-            }}
-          >
-            {/* Text Overlay */}
-            <motion.span
-              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-blue-700 text-sm font-bold"
-              animate={{
-                x: ["-100%", "100%", "-100%"],
-              }}
-              transition={{
-                duration: 100 + Math.random() * 10,
-                repeat: Infinity,
-                ease: "linear",
-                delay: Math.random() * 2,
-              }}
-            >
-              {texts[index % texts.length]}
-            </motion.span>
-          </motion.div>
-        ))}
-      </motion.div>
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 z-0 bg-cover bg-center opacity-50"
+        style={{ backgroundImage: `url('https://img.freepik.com/free-vector/gradient-futuristic-cyber-background_23-2149116407.jpg?t=st=1742555621~exp=1742559221~hmac=4b6667a29130be89a49d74f0e37da1914f6e22f076be65310b507f0dd36f9b5c&w=1380')` }}
+      />
 
       {/* Top Section: Text and Buttons */}
       <div className="container mx-auto px-4 text-center relative z-10">
         {/* Main Heading */}
         <motion.h1
-          className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-yellow-500 dark:from-blue-400 dark:to-yellow-300"
+          className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r text-blue-700 dark:text-cyan-500"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 100, delay: 100 }}
@@ -121,7 +80,7 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          <p className="text-sm md:text-base text-gray-500 dark:text-gray-400">
+          <p className="text-sm md:text-base text-blue-700 dark:text-cyan-500">
             {typedText}
             <span className="animate-blink">|</span> {/* Blinking cursor */}
           </p>
