@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { MapPin, Phone, Mail, Clock, Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
-import { FaWhatsapp, FaTelegram } from "react-icons/fa"  // Import WhatsApp and Telegram icons
+import { FaWhatsapp, FaTelegram, FaTiktok } from "react-icons/fa"  // Import WhatsApp and Telegram icons
 
 export function ContactInfo() {
   const contactItems = [
@@ -78,7 +78,7 @@ export function ContactInfo() {
           </motion.a>
           
           <motion.a
-            href="#twitter"
+            href="https://t.me/Myilmex"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="bg-blue-500 w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-blue-600 transition-all"
@@ -86,9 +86,17 @@ export function ContactInfo() {
             <span className="sr-only">Twitter</span>
             <Twitter className="h-5 w-5" />
           </motion.a>
-          
           <motion.a
-            href="#linkedin"
+            href="https://t.me/Myilmex"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="bg-blue-500 w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-blue-600 transition-all"
+          >
+            <span className="sr-only">TikTok</span>
+            <FaTiktok className="h-5 w-5" />
+          </motion.a>
+          <motion.a
+            href="https://et.linkedin.com/in/yilm-meng-0a340b31"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="bg-blue-700 w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-blue-800 transition-all"
@@ -109,7 +117,7 @@ export function ContactInfo() {
 
           {/* Add Telegram */}
           <motion.a
-            href="#telegram"
+            href="https://t.me/Myilmex"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="bg-blue-400 w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-blue-500 transition-all"
@@ -120,7 +128,7 @@ export function ContactInfo() {
 
           {/* Add WhatsApp */}
           <motion.a
-            href="#whatsapp"
+            href="https://wa.me/qr/5KVN6UGGXWF6O1"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="bg-green-500 w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-green-600 transition-all"
