@@ -1,9 +1,12 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ChevronRight, ArrowRight, CheckCircle } from "lucide-react"
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { ChevronRight, ArrowRight, CheckCircle } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function ServicesPage() {
   const services = [
@@ -21,7 +24,6 @@ export default function ServicesPage() {
       icon: "💻",
       image: "https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?t=st=1742293436~exp=1742297036~hmac=1598d7891dd5a311be05b4e64e6ecd2837bd540acd8aefb1a6f9193d29526c20&w=1380",
     },
-    
     {
       id: "mobile-solutions",
       title: "Mobile Solutions",
@@ -64,7 +66,7 @@ export default function ServicesPage() {
       icon: "🤖",
       image: "https://img.freepik.com/free-vector/wireframe-robot-ai-artificial-intelligence-robotic-hand-machine-learning-cyber-mind-domination-concept_127544-852.jpg?t=st=1742293306~exp=1742296906~hmac=ce1397d4d0d104ec7b7b727cdb6a99c68e13549ae604037d4b274a99ee4d70e5&w=1380",
     },
-  ]
+  ];
 
   return (
     <main className="min-h-screen">
@@ -83,6 +85,32 @@ export default function ServicesPage() {
               world.
             </p>
           </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="relative rounded-xl overflow-hidden mb-16"
+          >
+            <div className="aspect-[21/9] bg-muted">
+              <Image
+                src="/assets/photos/services.jpg" // Ensure this image exists in the public directory
+                alt="CommuniTech Team"
+                className="w-full h-full object-cover"
+                width={1920}
+                height={1080}
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex items-end">
+              <div className="p-8 text-white max-w-3xl">
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">Our Services & Solutions</h2>
+                <p className="text-white/80">
+                Comprehensive technology solutions designed to transform your business and drive innovation in a digital
+                world.
+                </p>
+              </div>
+            </div>
+          </motion.div>
         </div>
 
         {/* Wave bottom */}
@@ -264,6 +292,5 @@ export default function ServicesPage() {
         </div>
       </section>
     </main>
-  )
+  );
 }
-

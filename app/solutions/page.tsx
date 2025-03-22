@@ -355,6 +355,7 @@ export default function SolutionsPage() {
     <main className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-black text-white py-32 md:py-40 overflow-hidden">
+        
         <div className="absolute inset-0 z-0 opacity-20">
           <div className="absolute top-20 left-20 w-40 h-40 bg-yellow-400/40 rounded-full blur-3xl" />
           <div className="absolute bottom-20 right-20 w-60 h-60 bg-blue-500/30 rounded-full blur-3xl" />
@@ -370,6 +371,7 @@ export default function SolutionsPage() {
             >
               Our <GradientText className="bg-gradient-to-r from-blue-400 to-yellow-400">SMART Solutions</GradientText>
             </motion.h1>
+            
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -379,6 +381,31 @@ export default function SolutionsPage() {
               Patented technology solutions for enhanced security, fraud prevention, and operational efficiency
             </motion.p>
           </div>
+          <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        className="relative rounded-xl overflow-hidden mb-16"
+      >
+        <div className="aspect-[21/9] bg-muted">
+        <Image
+                src="/assets/photos/solution.jpg" // Updated path to local image
+                alt="CommuniTech Team"
+                className="w-full h-full object-cover"
+                width={1920} // Set appropriate width
+                height={1080} // Set appropriate height
+              />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex items-end">
+          <div className="p-8 text-white max-w-3xl">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4"> Patented SMART Technology</h2>
+            <p className="text-white/80">
+            Our experts have created innovative SMART solutions to address critical security and operational
+            challenges
+            </p>
+          </div>
+        </div>
+      </motion.div>
         </div>
       </section>
 

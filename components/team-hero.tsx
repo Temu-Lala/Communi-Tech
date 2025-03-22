@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { useTranslation } from "./language-provider"
+import Image from "next/image"
 
 export function TeamHero() {
   const { t } = useTranslation()
@@ -28,11 +29,13 @@ export function TeamHero() {
         className="relative rounded-xl overflow-hidden mb-16"
       >
         <div className="aspect-[21/9] bg-muted">
-          <img
-            src="https://img.freepik.com/free-photo/students-with-illustration-creativity-ideas-light-bulb_53876-122524.jpg?t=st=1741983955~exp=1741987555~hmac=32c09e788a14834de71347c348f5480ad06cd29f89d07df08f32d79ad3385aae&w=900"
-            alt="CommuniTech Team"
-            className="w-full h-full object-cover"
-          />
+            <Image
+                      src="/assets/photos/team.jpg"  
+                      alt="CommuniTech Team"
+                      className="w-full h-full object-cover"
+                      width={1920}
+                      height={1080} 
+                    />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex items-end">
           <div className="p-8 text-white max-w-3xl">
