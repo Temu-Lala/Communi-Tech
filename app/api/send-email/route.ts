@@ -1,3 +1,4 @@
+//routes.ts
 import nodemailer from 'nodemailer';
 
 export async function POST(req: Request) {
@@ -16,7 +17,7 @@ export async function POST(req: Request) {
 
     // Email to business (receiver)
     const receiverMailOptions = {
-      from: `"Contact Form" <${process.env.NEXT_PUBLIC_SMTP_USER}>`,
+      from: `"To Communi Tech" <${process.env.NEXT_PUBLIC_SMTP_USER}>`,
       to: process.env.NEXT_PUBLIC_TO_EMAIL,
       subject: `New Message from ${name}`,
       html: buildReceiverEmail(name, email, message),
