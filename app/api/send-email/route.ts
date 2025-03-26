@@ -24,10 +24,10 @@ export async function POST(req: Request) {
 
     // Confirmation email to sender
     const senderMailOptions = {
-      from: `"${process.env.NEXT_PUBLIC_COMPANY_NAME || 'Our Team'}" <${process.env.NEXT_PUBLIC_SMTP_USER}>`,
+      from: `"${process.env.NEXT_PUBLIC_COMPANY_NAME || 'Communi Tech Smart Solutions'}" <${process.env.NEXT_PUBLIC_SMTP_USER}>`,
       to: email,
       subject: `Thanks for contacting us, ${name}!`,
-      html: buildSenderEmail(name, process.env.NEXT_PUBLIC_COMPANY_NAME || 'Our Team'),
+      html: buildSenderEmail(name, process.env.NEXT_PUBLIC_COMPANY_NAME || 'Communi Tech Smart Solutions'),
     };
 
     // Send both emails
