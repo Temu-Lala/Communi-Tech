@@ -60,7 +60,7 @@ export default function FloatingSupport() {
             <div className="p-3 bg-muted/50 border-t">
               <div className="grid grid-cols-2 gap-2">
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://wa.me/qr/5KVN6UGGXWF6O1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-green-500 text-white text-sm py-2 px-3 rounded flex items-center justify-center hover:bg-green-600 transition-colors"
@@ -68,7 +68,7 @@ export default function FloatingSupport() {
                   WhatsApp
                 </a>
                 <a
-                  href="https://t.me/communitech"
+                  href="https://t.me/Myilmex"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-500 text-white text-sm py-2 px-3 rounded flex items-center justify-center hover:bg-blue-600 transition-colors"
