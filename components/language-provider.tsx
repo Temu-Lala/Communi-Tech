@@ -20,7 +20,7 @@ const translations: Translations = {
   solutions: { en: "Solutions", am: "መፍትሄ" },
   services: { en: "Services", am: "አገልግሎቶች" },
   contact: { en: "Contact", am: "ያግኙን" },
-
+  blog: { en: "blog", am: "blog" },
   // Hero Section
   heroTitle: {
     en: "COMMUNI TECH TECHNOLOGY PLC ",

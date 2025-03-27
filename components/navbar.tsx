@@ -35,6 +35,7 @@ export default function Navbar() {
     { href: "/services", label: t("services") },
     { href: "/team", label: t("team") },
     { href: "/contact", label: t("contact") },
+    { href: "/blog", label: t("Blog") },
   ]
 
   return (
